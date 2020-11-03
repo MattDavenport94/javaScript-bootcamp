@@ -57,4 +57,52 @@ let greeting = '   hello, how are you?    ';
 console.log(greeting.trim());
 
 let color = "  purple   ";
-console.log(color.trim().toUpperCase()); 
+console.log(color.trim().toUpperCase());
+
+// thing.method(arg) 
+// Some methods accept arguments that modify their behavoir. We pass these arguments inside pf parentheses.
+
+// indexOf(arg)
+console.log("baseball".indexOf("ball"));
+
+// slice(arg)
+
+console.log("Baseball".slice(4));
+
+let sport = "Baseball";
+sport.slice(4);
+
+// replace(arg)
+
+
+let annoyingLaugh = 'teehee so funny! teehee!';
+
+annoyingLaugh.replace('teehee', 'haha');
+
+// String Escapes
+
+/*
+\n - newline
+\' - single quote
+\" - double quote
+\\ - backslash
+*/
+
+// String Template Literals
+
+/* Template literals are strings that allows
+embedded expressions, which will be evaluated
+and then turned into a resulting string */
+
+let dreams = `I counted ${3 + 4} sheep`;
+console.log(dreams);
+
+let username = "Ziggy31";
+console.log(`Welcome back, ${username}`);
+console.log(`Game Over ${username.toUpperCase()}`);
+
+let item = 'cucumbers';
+let price = 1.99;
+let quantity = 4;
+
+console.log(`You bought ${quantity} ${item}, total price: $${price * quantity}`);
