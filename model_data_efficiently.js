@@ -106,3 +106,8 @@ let price = 1.99;
 let quantity = 4;
 
 console.log(`You bought ${quantity} ${item}, total price: $${price * quantity}`);
+
+const minAge = 21;
+const yourAge = 19;
+
+console.log(`You must be ${minAge} to enter. Come back in ${minAge - yourAge} years`);
