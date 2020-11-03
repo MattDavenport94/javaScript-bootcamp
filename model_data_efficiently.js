@@ -111,3 +111,86 @@ const minAge = 21;
 const yourAge = 19;
 
 console.log(`You must be ${minAge} to enter. Come back in ${minAge - yourAge} years`);
+
+// Null & Undefined
+
+/*
+Null
+- "Intentional absence of any value"
+- Must be assigned
+
+Undefined
+- Variables that do not have an assigned value are undefined
+*/
+
+// No one is logged in yet...
+let loggedInUser = null;
+
+// A user logs in....
+loggedInUser = 'Alan Rickman';
+
+"lol"[4];
+
+const u = undefined;
+
+let color;
+
+// Math Object
+
+/*
+Contains properties and methods for mathematical
+constants and functions
+*/
+
+// The number for PI:
+console.log(Math.PI);
+
+// Rounding a number: 
+console.log(Math.round(4.9));
+
+// Absolute Power:
+console.log(Math.abs(-456));
+
+// Raises 2 to the 5th power:
+console.log(Math.pow(2,5));
+
+// Removes decimal:
+console.log(Math.floor(3.9999));
+
+// Random Numbers gives us a random number
+console.log(Math.random());
+
+// Random Integer
+const step1 = Math.random();
+const step2 = step1 * 10;
+const step3 = Math.floor(step2);
+const step4 = step3 + 1;
+
+console.log(Math.floor(Math.random() * 10) + 1);
+
+// Dice roll not above 6
+
+const dice1 = Math.random() * 6;
+const dice2 = Math.floor(dice1) + 1;
+
+// Type of
+
+console.log(typeof 99);
+console.log(typeof true);
+
+let mystery = "99 ballons";
+console.log(typeof mystery);
+
+// parseInt & parseFloat
+
+/*
+Use to parse strings into numbers,
+but watch out for NaN!
+*/
+
+console.log(parseInt('24'));
+console.log(parseInt('24.565432'));
+
+console.log(parseFloat('24.9843'));
+console.log(parseFloat('7'));
+
